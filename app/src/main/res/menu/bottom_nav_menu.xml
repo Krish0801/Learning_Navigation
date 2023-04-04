@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_Converter"
+        android:icon="@drawable/ic_converter"
+        android:title="@string/title_Converter" />
+
+    <item
+        android:id="@+id/navigation_Calculator"
+        android:icon="@drawable/ic_calculator"
+        android:title="@string/title_Calculator" />
+
+    <item
+        android:id="@+id/navigation_Login"
+        android:icon="@drawable/ic_login1"
+        android:title="@string/title_Login" />
+
+    <item
+        android:id="@+id/navigation_SignUp"
+        android:icon="@drawable/ic_signup"
+        android:title="@string/title_SignUp" />
+
+</menu>

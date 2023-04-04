@@ -1,0 +1,31 @@
+<resources>
+
+    <string-array name="currency_array">
+        <item>Sterling pound</item>
+        <item>Euro</item>
+        <item>Dollar</item>
+        <item>Romanian leu</item>
+    </string-array>
+
+    <string name="app_name">Learning Navigation</string>
+    <string name="title_Converter">Converter</string>
+    <string name="title_Calculator">Calculator</string>
+    <string name="title_Login">Login</string>
+    <string name="title_SignUp">Sign Up</string>
+    <string name="shr_hint_username">Username</string>
+    <string name="shr_hint_password">Password</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="login1">Login</string>
+    <string name="registerToolbar" />
+    <string name="name" />
+    <string name="email" />
+    <string name="passWord" />
+    <string name="btRegister" />
+    <string name="btn_link_to_login" />
+    <string name="shr_hint_email" />
+    <string name="shr_hint_mailid" />
+    <string name="mailid">Mailid</string>
+    <string name="unit">Unit</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_Converter">
+
+    <fragment
+        android:id="@+id/navigation_Converter"
+        android:name="com.example.learningnavigation.ui.converter.ConverterFragment"
+        android:label="@string/title_Converter"
+        tools:layout="@layout/fragment_converter" />
+
+    <fragment
+        android:id="@+id/navigation_Calculator"
+        android:name="com.example.learningnavigation.ui.calculator.CalculatorFragment"
+        android:label="@string/title_Calculator"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/navigation_Login"
+        android:name="com.example.learningnavigation.ui.login.LoginFragment"
+        android:label="@string/title_Login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/navigation_SignUp"
+        android:name="com.example.learningnavigation.ui.signup.SignUpFragment"
+        android:label="@string/title_SignUp"
+        tools:layout="@layout/fragment_signup" />
+
+</navigation>
